@@ -1,0 +1,87 @@
+name: Sprint
+cost: 5
+prof: False
+freq: permanent
+type: special
+lists: Terran:General, 
+desc: Allows you to spend 1 stamina to doyble the distance Traversed through another Draverse skill. If you have the Skill "Athletics X" (See the Universal Skills List) you may at any time spend 3 stamina to Traverse.
+
+name: Crafter
+cost: 5
+prof: False
+freq: per-event
+type: special
+lists: Terran:General,
+desc: Allows you to Craft a single Plan with a Component cost of 8 or less for free. This does not grant a discount on Plans that cost more than 8 Components, nor can it be used in conjunction with Skills and abilities that would reduce the cost of any Plan.
+
+name: Unity
+cost: 2
+prof: False
+freq: periodic
+type: special
+lists: Terran:General, 
+desc: After being Treated (save for by Skills that would Treat Traumas or Flaws) you may choose a Terran Target within Melee Weapon Range, that Target receives the same Treatment.
+
+name: Drink it Off
+cost: 3
+prof: False
+freq: permanent
+type: special
+lists: Terran:General
+desc: Spend 1 minute drinking. You are restored to full Stamina. This can only be used outside of Combat.
+
+name: Flee
+cost: 2
+prof: False
+freq: periodic
+type: special
+lists: Terran:City_Folk 
+desc: Traverse directly away from a Source of Danger.
+
+name: Urban Warfare
+cost: 8
+prof: False
+freq: permanent
+type: special
+lists: Terran:City_Folk
+desc: You do +1 Ranged Damage while Indoors
+
+name:
+cost:
+prof: False
+freq:
+type:
+lists:
+desc:
+
+name:
+cost:
+prof: False
+freq:
+type:
+lists:
+desc:
+
+name:
+cost:
+prof: False
+freq:
+type:
+lists:
+desc:
+
+name:
+cost:
+prof: False
+freq:
+type:
+lists:
+desc:
+
+name:
+cost:
+prof: False
+freq:
+type:
+lists:
+desc:
