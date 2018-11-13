@@ -1,0 +1,72 @@
+name: Journeyman Craft: (Craft) *
+cost: 3
+freq: permanent
+type: crafting knowledge
+lists: universal
+desc: This Skill allows you to specialize in any Beginner Craft that you know allowing you to utilize Rank II Plans of the appropriate type. This Skill must be purchased for each Craft to which you wish to utilize Rank II Plans.
+
+name: Influential
+cost: 3
+freq: permanent
+type: special
+lists: universal
+desc: You have +1 Influence. This Influence is gained at the beginning of an Event and any unspent Influence is lost at the end of the Event.
+
+name: Athletics X *
+cost: 4
+freq: permanent
+type: special
+lists: universal
+desc: This Skill allows you to simulate a specific type of athletic feat. When you choose this Skill you must choose one of the following; Strength, Agility, or Endurance. You gain a level of mastery of that type of Athletics. Use of this Skill requires a Plot Marshal. When using this Skill you must tell a Plot Marshal what you are trying to do, along with your Athletic Speciality. The Plot Marshals will then tell you how much Stamina and time you need to expend to make that happen (between 1 and 5 Stamina). Spend the Stamina and the time (if there is any) and you are able to complete the feat. This Skill cannot be used while you are actively engaged in Combat or as a response to any type of Attack. You may only ever purchase this Skill Once. Any Skill you have can be used as an additional Keyword to use in conjunction with Athletics, though only 1 additional Keyword per attempt action. In addition to the above this Skill allows you to spend Stamina on baseline things you can do during Combat. For Strength you can spend 1 Stamina to do +1 Melee Damage for 1 Minute. For Agility you can spend 1 Stamina to do +1 Ranged Damaged for 1 Minute. For Endurance you can spend 1 Stamina to gain a Soak of +1 for 1 Minute (Soaks cannot reduce damage to less than 1).
+
+name: Research X *
+cost: 4
+freq: permanent
+type: special
+lists: universal
+desc: This Skill allows you to simulate a specific type of athletic feat. When you choose this Skill you must choose one of the following; Strength, Agility, or Endurance. You gain a level of mastery of that type of Athletics. Use of this Skill requires a Plot Marshal. When using this Skill you must tell a Plot Marshal what you are trying to do, along with your Athletic Speciality. The Plot Marshals will then tell you how much Stamina and time you need to expend to make that happen (between 1 and 5 Stamina). Spend the Stamina and the time (if there is any) and you are able to complete the feat. This Skill cannot be used while you are actively engaged in Combat or as a response to any type of Attack. You may only ever purchase this Skill Once. Any Skill you have can be used as an additional Keyword to use in conjunction with Athletics, though only 1 additional Keyword per attempt action. In addition to the above this Skill allows you to spend Stamina on baseline things you can do during Combat. For Strength you can spend 1 Stamina to do +1 Melee Damage for 1 Minute. For Agility you can spend 1 Stamina to do +1 Ranged Damaged for 1 Minute. For Endurance you can spend 1 Stamina to gain a Soak of +1 for 1 Minute (Soaks cannot reduce damage to less than 1).
+
+name: Science X *
+cost: 4
+freq: permanent
+type: special
+lists: universal
+desc: This Skill allows you to perform specific Tech Challenges. When you choose this Skill, you must choose one of the following; Security, Ancient, Machine, or Bio. You may take part in Tech Challenges of this type. You may also use your chosen field as a Key Word when using the Skill “Research X”. Tech Challenges are puzzles provided by Plot that allow you to interact with the technological side of the world. Generally these are physical objects that you must manipulate in some fashion in order to produce a result. Some Tech Challenges may require more than 1 type of Tech, meaning that more than 1 person must be involved with the Challenge. In addition there are General Tech Challenges that may be completed by anyone that simply has this Skill, no matter their concentration. This Skill may only be purchased once.
+
+name: Devotee of X *
+cost: 3
+freq: permanent
+type: special
+lists: universal
+desc: When purchasing this Skill you must indicate a Deity to whom you are Anointed. This Skill can be purchased up to 3 Times. This Skill has multiple purposes. 1. You can Anoint a Willing Target to a Deity of whom you are Devotee. This requires 5 minutes of roleplay with the Target. 2. You have access to the “Rituals Supplemental” and can purchase Rituals from there pertaining to Deities of whom you are Devotee. 3. You can perform Rituals. The requirements for each Ritual are indicated in the “Rituals Supplement”.
+
+name: Talk Them Through It
+cost: 5
+freq: permanent
+type: special
+lists: universal
+desc: Allows you to talk someone else through Treating a Target, Crafting an Item, or engaging in any special Test. If there is a time element to the Skill, the time is doubled (and may not be modified by your Proficiencies), if a Test is involved the Test difficulty may be increased (Marshal discretion). You can use this Skill while in any condition, so long as you are able speak. This Skill only works in conjunctions with Skills you have on your Character Card.
+
+name: Negotiate
+cost: 3
+freq: permanent
+type: attack;voice/mental
+lists: universal
+desc: Allows you to find out information from a Target wearing a Negotiate Symbol. Spend 5 minutes roleplay with the Target. You may ask the Target a specific question. This question is different depending on your standing with the Faction of whom the Target is a member, or if you have the Target as one of your Contacts. These questions are considered to be asked In Game, and represent you catching the person you at talking with off-guard. An individual may use Negotiate on any single Target only Once Per Period. The following is a list of questions that may be asked.\n1. At Any Time - After 10 minutes of Roleplay with the Target you gain an Influence Card for the Target’s Faction. This can only be done Once Per Hour, and is at the discretion of the NPC (if you spent 10 minute yelling at the NPC it is unlikely you gained Influence)\n2. Target is a Contact - “What are you feelings on X” (X being anything you name)\n3. You have Notoriety with Target’s Faction - “Are you hiding anything?”\n4. You have Renown with Target’s Faction - Any Yes or No question. If the question cannot be answered with a Yes or No, this Skill has no effect.\n5. You have Fame with Target’s Faction - Any complex question
+
+name: Forge Contract
+cost: 3
+freq: permanent
+type: special
+lists: universal
+desc: Allows you to form a Temporary Contract with an NPC. If the time period for the Contract is not specified, it lasts for 1 Year (no Contract may be longer than 1 Year). Details of this contract are between you and the NPC. You may only Forge 2 Contracts Per-Event. Each Contract you have increases your Smuggling Rolls by 1. Contracts must be written on your Character Card at the time they are Forged.
+
+name: Investigate X *
+cost: 4
+freq: permanent
+type: special
+lists: universal
+desc: Allows you to carry out an investigation of any area along specific parameters defined by your Keyword Speciality. You may choose one and only one Keyword Speciality when taking this Skill. The options are “Case the Joint”, “Forensics”, “Xeno-Archeology”. Case the Joint will give you information about the area, and is used for finding hidden entrances, or other secrets in a location that may not be immediately obvious. Forensics allows you to get information and collect samples from a crime scene. Xeno-Archeology allows you to discover information regarding ancient objects and alien ruins. Requires a Plot Marshal. Describe the nature of your investigation to the Plot Marshal along with your Keyword Speciality and up to 2 other Keywords. Plot Marshal will give you a time between 1 and 5 minutes to investigate. After which the Marshal will provide you with information pertaining to what you are seeking to investigate. Some scenes may be set up in a way that the clues needed to proceed are provided, in those cases this Skill merely allows you to fully investigate what is apparent (depending on your Keyword Speciality). A Plot Marshal will let you know ahead of time if this is the case. This Skill may be used only Once Per Scene. Multiple people working together to investigate a Scene are likely to gather more information. It is not always possible to deduce everything from a scene, and gathering samples to take back for the purposes of Research allows you to add Keywords to that Research.
+
+
+

@@ -1,0 +1,103 @@
+name: Tattoo Artist
+cost: 6
+freq: per-event
+type: special
+lists: Yana:General
+desc: You can apply Tattoos to the face of a Willing Target after any great accomplishment (as judged by a Plot Marshal). These Tattoos count as a Greater Flaw. So long as the Target has this Tattoo on they gain a 1 Influence Discount on any Scheme directly involving the Yana. Non-Yana can have a limit of 1 of these Tattoos. Yana can have up to 3 of these Tattoos. You cannot Target yourself with this Skill. You may not pick the same Target more than once every 3 Months, nor may other Yana pick that Target within that window.
+
+name: Legal Contract
+cost: 3
+freq: per-event
+type: special
+lists: Yana:General
+desc: Allows you to draft a Legally Binding Contract between two willing parties who are not under duress. This contract can be of any length up to 6 Months. The terms of this contract are binding, and neither party can violate the explicit words used to draft the agreement. At any time after the first month of the Contact, either parties may seek arbitration to change the wording of the Contract. If the other party is unwilling to enter into arbitration within 1 month of the request, the Contract is considered null.
+
+name: Collect Trophy
+cost: 4
+freq: permanent
+type: special
+lists: Yana:General
+desc: Spend 1 Minute roleplay over a Dead Target. You Regain 1 Stamina. This can only be Once Per Target.
+
+name: Challenge
+cost: 4
+freq: per-event
+type: special
+lists: Yana:General
+desc: Spend 1 minute dictating the terms of a Challenge to a Friendly non-NPC Target. Both you and the Target must take part in the Challenge though others may be involved. Whichever Targets wins the Challenge gains 1 Influence which must be used that Event. The Challenge must be honest, and declared against someone you consider to be a valid opponent. This Challenge may be of any variety.
+
+name: Elite
+cost: 4
+freq: permanent
+type: special
+lists: Yana:Mercenary
+desc: When you take this Skill you must choose a Mercenary Group/Faction. You have +1 Influence with that Faction. In addition, all Missions you take with or directly connected to that faction grant you a 20% Bonus (rounded up). Curios count as 50 Components for the sake of this Bonus.
+
+name: Mission Focus
+cost: 4
+freq: per-event
+type: special
+lists: Yana:Mercenary
+desc: Defends against any Attack. This Defense can only be used while you are explicitly involved with a Mercenary Contract.
+
+name: Dense Bone Structure
+cost: 8
+freq: permanent
+type: special
+lists: Yana:Mercenary
+desc: Whenever one of your Limbs is hit by a Skill that would Destroy that Limb, instead of it being Destroyed, it is merely not functional for 1 Minute.
+
+name: Pursuit
+cost: 3
+freq: periodic
+type: special
+lists: Yana:Mercenary
+desc: Whenever someone calls as Traverse Skill, you may activate this Skill and Traverse in the direction of that Target. At the end of your Traverse you gain a +5 Damage Attack against that Target. If this initial Traverse Skill is used by a Hidden Target, that Target is no longer Hidden to you if you call this Skill against them.
+
+name: Conditioning
+cost: 3
+freq: periodic
+type: defense
+lists: Yana:Tender
+desc: Defends against any Mental Attack. This Skill may not be used to Defend against any Mental Attack from a Yana.
+
+name: Assembly Line
+lists: Yana:Tender
+
+name: Performance
+lists: Yana:Tender
+
+name: Xenobiology X
+cost: 5
+freq: permanent
+type: treatment
+lists: Yana:Tender
+desc: When purchasing this Skill you must choose a specific Race/Species (Terrans not Humans). This Skill can be purchased multiple times, as per Periodic Skills cost goes up by 1 per purchase. Spend 5 Minutes Treating Critical Target. Target is restored to 1 Body, and is dropped to 1 Stamina. Target cannot benefit from this Skill more than Once Per Event.
+
+name: Rival X
+cost: 5
+freq: permanent
+type: special
+lists: Yana:Ministry Agent
+desc: When purchasing this Skill choose a Faction. You can never do Schemes for that Faction. You gain 3 Influence Per Event to use explicitly on Schemes against that Faction. This Skill may not be unlearned, however if your Rival Faction has not been seen for 6 Events, or has been removed from the game, you may speak to a Plot Marshal about selecting a new Rival.
+
+name: Null Point
+cost: 6
+freq: periodic
+type: defense
+lists: Yana:Ministry Agent
+desc: Defends against any Metaphysical Attack. If you have the capability of performing that Attack using this Defense prevents you from doing so for 1 hour. For instance, if you were hit by the Skill “Confuse Loyalty” and use this Defense to block it, you could not use the Skill “Confuse Loyalty” one hour.
+
+name: Shiv Entropic
+cost: 4
+freq: per-event
+type: attack;surprise;small_weapon
+lists: Yana:Ministry Agent
+desc: Tag Target Entropic Creature in the Back. Target immediately falls to the Out stage of their Death Count.
+
+name: Addendum
+cost: 5
+freq: permanent
+type: special
+lists: Yana:Ministry Agent
+desc:  When utilizing the Skill “Legal Contract” or when you are part of writing any Legal Document, you may add a single line to that Document after it has been signed. This line cannot undo the terms of the Contract or Document. In addition to this, when using the Skill “Research X” you gain the following question that may be asked in addition to any other questions, so long as the topic of “Research X” has to do with a Faction, the Law, or Culture; “Are there any loopholes?”. This question can be restated in such a way that it is appropriate to the topic at hand. Addendum can be used in conjunction with the Skill “Challenge” to add a last minute item to the contest. In this case, it is considered an Attack and may be blocked via any Mental Defense.

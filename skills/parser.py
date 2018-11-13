@@ -1,4 +1,5 @@
-files = ['terran', 'elysian', 'aesir', 'boz', 'robot', 'android', 'cybrid', 'cryo', 'weed', 'zelnalak', 'mkai', 'oniri']
+import json
+files = ['terran', 'elysian', 'aesir', 'boz', 'robot', 'android', 'cybrid', 'cryo', 'weed', 'zelnalak', 'mkai', 'oniri', 'yana', 'mutant', 'maneater', 'universal']
 
 skills = {}
 
@@ -54,25 +55,56 @@ if __name__ == '__main__':
                                 if value not in ['periodic', 'per-event', 'recurrent', 'permanent']:
                                     print(s.name + ': '+  str(key) + ' = ' + str(value))
                             else:
-                                s.__dict__[key] = value
+                                s.__dict__[key] = str(value)
                     else:
                         print(s.name)
                         print("FAILURE")
                         exit()
 
+to_file = {}
+
+for name, skill in skills.items():
+    s = {}
+    for k, v in skill.__dict__.items():
+        s[k] = v
+    to_file[name] = s
+
+
+with open('racial.json', 'w') as fp:
+    json.dump(to_file, fp, indent=4)
+
+
+with open('racial.json', 'r') as fp:
+    new_skills = json.load(fp)
+
+for name, skill in new_skills.items():
+    #print(name)
+    if 'Negotiate' == name:
+        print(skill['desc'])
+
+'''
+top_lists = {}
 lists = {}
+
 
 for name, skill in skills.items():
     for lst in skill.lists:
-        if lst not in lists:
-            #print(lst)
-            lists[lst] = []
-        lists[lst].append(skill)
-    if len(skill.lists) > 1:
-        print(skill.name, skill.lists)
+        top_list = lst.split(':')[0]
+        low_list = lst.split(':')[1]
+        if top_list not in top_lists.keys():
+            top_lists[top_list] = {}
+        if low_list not in top_lists[top_list].keys():
+            llist = {}
+            top_lists[top_list] = llist
+        else:
+            llist = top_lists[top_list]
+        llist[name]=skill
 
-for l in lists:
-    this_list = lists[l]
-    print(l+'*'*40)
-    for skill in this_list:
-        print(skill.name)
+for l, side in top_lists.items():
+    print('-'*40)
+    print(l)
+    print('-'*40)
+    print(side)
+    for k, v in side.items():
+        print(k)
+'''

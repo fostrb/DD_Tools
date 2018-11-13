@@ -1,0 +1,106 @@
+name: Long Claws
+cost: 8
+freq: permanent
+type: special
+lists: Maneater:General
+desc: You may use "Long Claw" phys reps for any Skill that requires a specific Melee Weapon. These claws can be up to the maximum length for one handed weapons and should each be designed to look like a single long claw. Long Claws count as their own Weapon Type. They are a single Rank 3 Weapon called "Long Claws", and can accept any Melee Weapon Upgrade. Any Attack that would Destroy or Obliterate your Weapon also effects "Long Claws" in the exact same way, and you would lose Upgrades accordingly.
+
+name: Living Feast
+cost: 3
+freq: permanent
+type: special
+lists: Maneater:General
+desc: Spend 1 minute roleplay eating a Target in any stage of their Death Count. Target dies. You regain 5 Body.
+
+name: Favored Enemy Human (Name) *
+cost: 5
+prof: True
+freq: permanent
+type: proficiency
+lists: Maneater:General
+desc: At purchase you must
+name a specific Human Race. You do +1 Weapon Damage against that Race. Additional purchases allow you to name another Human Race. This Skill is not separate from the normal Favored Enemy Skill (see Xeno Hunter), and for Build purposes, a purchase of that Skill is equal to purchasing this Skill.
+
+name: Not Food
+cost: 2
+freq: periodic
+type: special
+lists: Maneater:General
+desc: Allows you to mark a Human Target with your blood such that they will not be seen as food to other Maneaters for the remainder of the Period. As long as the Target does not initiate Combat with or in any way instigate a Maneater, a Maneater cannot initiate Combat with the Target. This is considered a mental Attack for the purposes of overcoming protection. A Maneater will not give this protection to a Human on a whim, for, if the human transgresses against other Maneaters while protected the Maneater who gave him the mark will likely find his life as forfeit. This is considered as a lesser form of the Blood Marking.
+
+name: Collect Trophy
+lists: Maneater:Scavenger
+
+name: Hiss
+cost: 5
+freq: recurrent
+type: attack;voice/mental
+lists: Maneater:Scavenger
+desc: Can only be used while you are doing something to a Downed, Out, Critical or Dead Target, or you are Concentrating. You may use “Hiss” on any Target that approaches you. Target is Afraid. You may spend 1 Stamina to reset the cooldown of this Skill.
+
+name: Eat Tongue
+cost: 3
+freq: periodic
+type: attack;melee
+lists: Maneater:Scavenger
+desc: Can only be used on a Downed, Out, Critical, Dead, or Stunned Target. Tag Target. Target’s Tongue is Destroyed. Target is Mute. You regain 5 Body.
+
+name: Leap
+cost: 4
+freq: periodic
+type: special
+lists: Maneater:Scavenger
+desc: Traverse. You may ignore any obstacles between you and the end of your Traverse.
+
+name: Freakish Strength *
+cost: 13
+freq: permanent
+type: special
+lists: Maneater:Stalker
+desc: You gain the Athletics X Skill (see the Universal Skills List) with the Subtype "Strength" replaced with "Freakish Strength" in addition to the benefits gained via "Strength" you also do a Permanent +1 Melee Weapon Damage.
+
+name: Tackle
+cost: 2
+freq: periodic
+type: attack;melee
+lists: Maneater:Stalker
+desc: Tag Target. Both you and the Target are Prone.
+
+name: Brutal Strike
+cost: 3
+freq: periodic
+type: attack;melee
+lists: Maneater:Stalker
+desc: Tag Prone or Stunned Target. Target takes Weapon Damage x3.
+
+name: Bite
+cost: 3
+freq: periodic
+type: attack;melee
+lists: Maneater:Stalker
+desc:  Target takes +5 Weapon Damage.
+You regain 5 Body.
+
+name: Feign Death
+lists: Maneater:Prowler
+
+name: Howl
+cost: 2
+freq: periodic
+type: attack;voice/mental
+lists: Maneater:Prowler
+desc: Howl at visible Target. Target is Panicked. You may choose multiple Targets with this Skill, spending 1 Stamina for each additional Target. This Skill does not break Hidden.
+
+name: Hemorhage
+cost: 3
+freq: periodic
+type: attack
+lists: Maneater:Prowler
+desc: Tag Target. Target takes +5 Bleed. Target cannot Hide from you for 5 Minutes after this Skill has been enacted.
+
+name: Natural Camouflage
+cost: 6
+freq: recurrent
+type: special
+lists: Maneater:Prowler
+desc: You may become Hidden by pressing your back against any immobile vertical surface that is larger than you are and spending 2 Stamina. You may also spend 2 Stamina to use the Periodic Skill "Hide".

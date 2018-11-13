@@ -1,0 +1,111 @@
+name: Mind over Matter
+cost: 8
+freq: permanent
+type: special
+lists: Mutant:General
+desc: Any Skill that requires 2 or more Stamina in order to activate has its cost reduced by 1 Stamina.
+
+name: Resolve
+cost: 6
+freq: periodic
+type: defense
+lists: Mutant:General
+desc: Defends against any Attack that would cause a Trauma.
+
+name: Mental Bypass
+cost: 5
+freq: per-event
+type: special
+lists: Mutant:General
+desc: Spend 1 minute roleplay concentrating. You regain full Stamina. This can be purchased multiple times however it can only be used once per Combat.
+
+name: Mind Bender
+cost: 6
+freq: recurrent
+type: attack;mental
+lists: Mutant:General
+desc: Spend 3 Stamina. Point at Target within Traverse Distance who can clearly hear you. Target is Dazed.
+
+name: Suppress
+cost: 5
+freq: permanent
+type: treatment
+lists: Mutant:Drudge
+desc: Spend 2 Stamina. Requires 1 minute of roleplay with Target. For 1 hour Target’s Traumas are quelled. A Target may not benefit from this Skill more than Once Per-Event.
+
+name: Psychic Healing
+cost: 6
+freq: permanent
+type: special
+lists: Mutant:Drudge
+desc: Spend 2 Stamina. Point at Target within Traverse Distance who can clearly hear you. Target is healed for 5 Body.
+
+name: Transference
+cost: 6
+freq: permanent
+type: defense
+lists: Mutant:Drudge
+desc: Spend 3 Stamina. This Skill has 2 possible uses. 1. If you are the Target of a Mental or Voice Attack, you may Tag a Target within Melee Weapon Range, that Target is affected by the Skill instead. 2. If a Target within Melee Weapon Range is Attacked by a Mental or Voice Attack, you may Tag that Target and you take the effects of that Skill.
+
+name: Give me your Pain
+cost: 5
+freq: permanent
+type: special
+lists: Mutant:Drudge
+desc: Spend 2 Stamina. You may transfer all Negative Temporary Status Effects from a Target onto yourself. If you have any Special Immunity against that Status Effect it does not apply when using this Skill. Target must be within Melee Weapon Range.
+
+name: Teleshield
+cost: 6
+freq: permanent
+type: special
+lists: Mutant:Outcast
+desc: Spend 3 Stamina and concentrate for 10 Seconds. You enter a Shielded State.
+
+name: Mind Slip
+cost: 6
+freq: recurrent
+type: special
+lists: Mutant:Outcast
+desc: Spend 3 Stamina. You are Hidden for 1 minute but can only move at a heel to toe pace. This Skill ends immediately if you interact with a person or object (objects include furniture, trees and doors) even accidentally.
+
+name: Psychic Flash
+cost: 6
+freq: recurrent
+type: attack;mental
+lists: Mutant:Outcast
+desc: Spend 4 Stamina. Point at Target within Traverse Distance who can clearly hear you. Target is Blind for 1 minute.
+
+name: Implant Suggestion
+cost: 5
+freq: recurrent
+type: attack;mental
+lists: Mutant:Outcast
+desc:  Spend 4 Stamina. Can only Target someone wearing the Negotiate Symbol. Allows you to implant a thought in the Targets mind that they are compelled to carry out immediately. This thought must be in the form of a single sentence. This will not cause a Target to work against their own nature. This cannot be used on the same Target more than Once Per Event.
+
+name: Save Me
+cost: 3
+freq: periodic
+type: defense/attack;mental
+lists: Mutant:Pariah
+desc:  Can only be used while you are in the Downed or Out stage of your Death Count after someone has declared an Attack against you. Attack fails, Target must do everything in their power to bring you back to full health. Target will believe for 1 hour that the desire to save you is their own. Even if this is Defended against, the initial Attack against you fails.
+
+name: Ignite
+cost: 5
+freq: recurrent
+type: attack
+lists: Mutant:Pariah
+desc: Spend 2 Stamina. Point at Target within Traverse Distance who can clearly hear you. Target takes 5 Fire Damage.
+
+name: Psychic Push
+cost: 5
+freq: permanent
+type: attack
+lists: Mutant:Pariah
+desc: Spend 2 Stamina. Point at Target within Traverse Distance who can clearly hear you. Target is Thrown.
+
+name: Strength of Focus
+cost: 8
+freq: permanent
+type: special
+lists: Mutant:Pariah
+desc: You may spend Stamina to increase your Damage. For each point of Stamina you can increase the amount of Damage you do by 1 for 1 minute. So for instance, this Skill allows you to spend 3 Stamina to do +3 Damage with all of your Attacks for 1 minute. You could also spend 3 Stamina to do +1 Damage with all of your Attacks for 3 minutes. The Maximum about of +Damage you can do this Skill this is 3.
