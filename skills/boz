@@ -1,0 +1,107 @@
+name: Knock to the Head
+cost: 6
+freq: periodic
+type: defense
+lists: Boz:General
+desc: This Skill blocks any Skill that would immediately drop you into your Death Count, including normal Damage. You are rendered Unconscious instead. This Skill does not Defend against Obliteration, or any Attack that would immediately cause you to die.
+
+name: Higher Education
+cost: 5
+freq: permanent
+type: special
+lists: Boz:General
+desc: When utilizing any Skill that has Keywords, you may always add 1 additional Keyword.
+
+name: Deep Breath
+lists: Boz:General
+
+name: Cyber Chic
+cost: 3
+freq: permanent
+type: special
+lists: Boz:General
+desc: You have a Discount of 1 for any Scheme involving the Boz so long as you have a Cybernetic installed. 
+
+name: Space-Lift Operator
+cost: 5
+freq: permanent
+type: special
+lists: Boz:Asteroid_Miner
+desc:  When using Carry, you can Carry up to 5 Targets and can move as fast as the slowest one of you is able to travel. 
+
+name: Bum's Rush
+cost: 4
+freq: periodic
+type: attack;melee
+lists: Boz:Asteroid_Miner
+desc: Tag Target. You Traverse with the Target in the direction of your choice, then Throw the Target.
+
+name: Blast Zone
+cost: 6
+freq: periodic
+type: special
+lists: Boz:Asteroid_Miner
+desc:  Defends against any Area of Effect Attack. This Skill does not work on any Attack that would cause the Area you are in to stop existing. This Skill can be activated to provide 1 minute of Immunity from a persistent effect on an area (such as Blight or Radiation).
+
+name: Breach
+cost: 8
+freq: permanent
+type: special
+lists: Boz:Asteroid_Miner
+desc: Requires Marshal. This Skill allows you to create a hole in a wall through which you and whoever you choose may enter. Indicate the area you wish to put a hole. The Marshal will give you a time between 2 and 20 minutes. This is the time you must spend opening the hole. RP for opening the hole must be appropriately loud. Once a hole has been opened, only you may give access to its use, and my only grant access so long as you have a hand on the wall near where the hole is. This hole lasts so long as you remain within sight of the hole, and have the active ability to grant access to the hole. When passing through the hole, all Targets go Out of Game and appear on the other side of the wall directly on the other side of where the “hole” would be. Certain walls, such as energy barriers, cannot be Breached. This Skill is effected by anything that would reduce Crafting Time, but can never be reduced to less than 2 minutes. 
+
+name: Whip *
+cost: 4
+freq: periodic
+type: special
+lists: Boz:Adventurer
+desc: Allows you to carry a Phys Rep whip or similar object. Point at a Target within Traverse Distance. You may do one of the following; Move to that Target; Cause a non-Weapon item on that Target to end up in your hand; activate a Target remotely that could reasonably be triggered via a whip. If you have the Skill “Athletics” this grants you the Keyword “Climber”, and allows you to utilize this Skill to immediately Traverse to an area of higher elevation than your current location. In abuilding with more than one story, this would allow you to reach the second story.
+
+name: Plot Armor
+cost: 8
+freq: per-event
+type: defense
+lists: Boz:Adventurer
+desc: Defends against any Attack or Event that would cause you to be Obliterated or Die instantly.
+
+name: Courage
+cost: 2
+freq: periodic
+type: defense
+lists: Boz:Adventurer
+desc: Defends against Afraid or Panicked.
+
+name: Breaking and Entering
+cost: 5
+freq: permanent
+type: special
+lists: Boz:Adventurer
+desc: This Skill allows you to enter into a building or area through unusual means. Place your hand on a door or window you wish to enter through and count loudly and slowly down from 10. Spend 1 Stamina. You are now on the other side of that door or window. On its own this Skill only allows you to enter into areas that are not secured by any means. If a door or window are bolted or locked this Skill has no effect on its own. However you may use up to 2 Keywords in conjunction with this Skill, that may allow you to bypass such countermeasures. This Skill requires a Plot Marshal.
+
+name: Comps Equal Power
+cost: 8
+freq: periodic
+type: special
+lists: Boz:Venture_Capitalist
+desc: You may spend 20 Components to gain 1 Influence, this Influence must be spent in conjunction with this Skill being activated. Requires Marshal.
+
+name: Comp-troller
+cost: 5
+freq: per-event
+type: special
+lists: Boz:Venture_Capitalist
+desc:  You can activate this Skill instead of spending Components for any Skill that requires Components to be spent excluding Plans. This Skill can work to counter the loss of Comps from any type of Smuggling.
+
+name: Diversified Portfolio
+cost: 6
+freq: permanent
+type: special
+lists: Boz:Venture_Capitalist
+desc: You begin each Event with 6 Comps of your choice, each Comp must be of a different type.
+
+name: Front of the Line
+cost: 6
+freq: permanent
+type: special
+lists: Boz:Venture_Capitalist
+desc: You may hand anyone who is Treating you 3 Components. This reduces the time of any Treatment done on you by half (rounded up) for the next 5 minutes. You may also give any Willing Target 10 Components at any point during Combat. For the remainder of Combat all Treatment done on you by the Target has its time reduced by half (rounded up), but they are unable to Treat any other Target for the remainder of Combat.

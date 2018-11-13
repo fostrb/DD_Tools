@@ -1,0 +1,104 @@
+name: Threat Assessment
+cost: 4
+freq: permanent
+type: special
+lists: Zelnalak:General
+desc: Study Target for 1 Minute. You may ask a Marshal 1 Yes or No question regarding the Target. You will receive a null answer if there is not a clear Yes or No response. You may only use this Skill once every hour. You may not use this Skill on the same Target more than Once Per Event. A Target who you have used this Skill on is considered “Threat Assessed” for the remainder of the Event. This Skill cannot be used to Diagnose a Target, save for providing very general information (you can determine if a Target has a Trauma or a Disease but cannot delve any deeper).
+
+name: First Contact
+lists: Zelnalak:General
+
+name: Flee
+lists: Zelnalak:General
+
+name: Pacifism
+cost: 3
+freq: periodic
+type: defense
+lists: Zelnalak:General
+desc: Defends against any Skill that would cause you to Attack or engage in Combat.
+
+name: VIP
+cost: 3
+prof: True
+freq: per-event
+type: proficiency
+lists: Zelnalak:Cultural_Liaison
+desc: You have +1 Influence per Purchase of this Skill. This Influence is gained at the beginning of an Event and any unspent Influence is lost at the end of the Event.
+
+name: Tailored Pheromones
+cost: 5
+freq: permanent
+type: attack;voice/mental
+lists: Zelnalak:Cultural_Liaison
+desc: Spend 5 Minutes roleplaying with the Target outside of Combat and spend 3 Stamina (Stamina spent this way cannot be restored until the end of the Event unless you choose to end the effect. To end the effect you must find the Target and tell them that the effect has ended). For the remainder of the Event, Target cannot engage in Combat with you unless you Attack them first. This Skill costs 1 Stamina if you have used Threat Assessment on the Target first.
+
+name: Detailed Assessment
+cost: 3
+freq: periodic
+type: special
+lists: Zelnalak:Cultural_Liaison
+desc: Must be used in conjunction with “Threat Assessment”. Instead of asking the Marshal a Yes or No question regarding the Target, you may ask a non compound question consisting of 6 words or less.
+
+name: Would You Kindly
+cost: 5
+freq: periodic
+type: special
+lists: Zelnalak:Cultural_Liaison
+desc: Speak to friendly Target for 5 minutes. Target gains the Skill “Bodyguard” (see the Crusader Class list) and immediately uses it on you if they are within Traverse distance of you when the next Combat occurs. Target must make reasonable effort to protect you, but will does not have to do so at the cost of their life, or the lives of others.
+
+name: Pistol And Sword
+cost: 8
+freq: recurrent
+type: attack
+lists: Zelnalak:SwashBuckler
+desc: Can only be used after successfully Tagging a Target with a 1 Handed/Small Weapon. Your next Ranged Attack does Double Damage. Tag Target and say “Critical Attack X Damage” where X is equal to twice your normal Damage. This Attack must be the next Attack you make, and must be used within 5 Seconds of the initial Melee Attack.
+
+name: Avoidance
+cost: 6
+freq: periodic
+type: defense
+lists: Zelnalak:SwashBuckler
+desc: Defends against any Attack from a "Threat Assessed" Target.
+
+name: Cut Down
+cost: 5
+freq: per-event
+type: attack
+lists: Zelnalak:SwashBuckler
+desc: Tag Target Machine, M'kai, Shard, Weed, Animus or Etherian. Target is dropped to the Critical Stage of their Death Count.
+
+name: Weak Point
+cost: 6
+freq: permanent
+type: special
+lists: Zelnalak:SwashBuckler
+desc: You do +1 Damage and have a Soak of 1 against "Threat Assessed" Targets. Soaks cannot reduce Damage to less than 1.
+
+name: Zelnalak Craft: Tinctures
+cost: X+2
+freq: permanent
+type: crafting knowledge
+lists: Zelnalak:Geneticist
+desc:  Allows you to read, understand, learn and utilize Rank 1 and 2 Tincture Plans. When purchasing this Skill you gain a Rank 1 and a Rank 2 Tincture Plan of your choice, along with 1 random Rank 1 and Rank 2 Tincture Plan. Crafting Skills have a doubling Build cost after every other Purchase (2, 2, 4, 4, 8, 8, etc). The cost of this Skill is 2 Build + wherever it falls along that line. This means that if this is your first Crafting Skill purchase it would cost 4 Build, but if it were your third, it would cost 6 Build.
+
+name: Enemy of My Enemy
+cost: 4
+freq: periodic
+type: treatment
+lists: Zelnalak:Geneticist
+desc: Can only be used on a Threat Assessed Target. Spend 5 Minutes Treating Target in the Critical Stage of their Death Count. Target is restored to 1 Body and cannot actively engage in Combat for 30 minutes. Target may Defend themselves and use any non-combative Skills during this window.
+
+name: Research Scientist *
+cost: 9
+freq: permanent
+type: special
+lists: Zelnalak:Geneticist
+desc: You gain the Skills "Research X" with the subtype "Xeno-Biology" and "Science X" with the subtype "Bio" (see the Universal Skills list for both of these Skills). Purchasing this Skill does not count as purchasing the Skills "Research X" and "Science X" and you may Purchase those Skills again allowing you to take a second subtype.
+
+name: Bio-Engineer *
+cost: 8
+freq: permanent
+type: treatment
+lists: Zelnalak:Geneticist
+desc: You gain the Skill “Disease Specialist X” (see the Sick Bay Class List). You may choose 2 additional Keywords.

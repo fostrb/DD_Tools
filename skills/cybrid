@@ -1,0 +1,107 @@
+name: Short Circuit
+cost: 5
+freq: periodic
+type: attack
+lists: Cybrid:General
+desc: Tag Target Machine then choose one of the following; Target is Stunned, Target is Mute for one 1 Minute, or Target cannot use Cybernetics or Tech Items for 5 Minutes.
+
+name: Cyber Suit *
+cost: 6
+freq: permanent
+type: special
+lists: Cybrid:General
+desc: For every point of Tether (Including Machine Racial Cybernetics Tether) you have spent into Cybernetics you gain +1 Permanent Body.
+
+name: Origin of the Species **
+cost: +1/+2
+freq: permanent
+type: special
+lists: Cybrid:General
+desc: You may purchase Species/ Race Skills from the specific Species/Race you were before you were turned into a Cybrid. So if you were an Elysian, you may purchase Elysian Skills. General Skills cost 1 Build more than the standard base cost. When purchasing this Skill for the first time you must also choose a Path on that Species/Race list as you would any normal Species/Race list, you may also purchase Skills from that Path at a cost of 2 Build more than the Standard Base Cost. When utilizing a Skill via Origin of the Species, you count as that Species in addition to being a Cybrid for 5 Minutes after utilizing the Skill. This second part of the Skill only applies to Periodic and Per-Event Skills. 
+
+name: Deja Vu
+cost: 4
+freq: periodic
+type: attack
+lists: Cybrid:General
+desc: This Skill allows you to duplicate any Periodic Attack you know with an initial Build cost of 5 or less that you have just used. Deja Vu version of the Attack must be done within 5 seconds of the original Attack against the same Target.
+
+name: Cybrid Craft: Cybernetics
+cost: X+2
+freq: permanent
+type: crafting knowledge
+lists: Cybrid:Conversion_Specialist
+desc: Permanent Crafting Knowledge - Allows you to read, understand, learn and utilize Rank 1 and 2 Cybernetic Plans. When purchasing this Skill you gain a Rank 1 and a Rank 2 Cybernetic Plan of your choice, along with 1 random Rank 1 and Rank 2 Cybernetic Plan. Crafting Skills have a doubling Build cost after every other Purchase (2, 2, 4, 4, 8, 8, etc). The cost of this Skill is 2 Build + wherever it falls along that line. This means that if this is your first Crafting Skill purchase it would cost 4 Build, but if it were your third, it would cost 6 Build. 
+
+name: Conversion *
+cost: 8
+freq: permanent
+type: special
+lists: Cybrid:Conversion_Specialist
+desc: You gain the Skill "Implant" (see the "Engineer" Class List). In addition you may turn a willing viable Target into a Cybrid (any type of Human, Mutants, Zelnalak, Oniri, and Yana). This process takes 4 Events. During each Event you must Implant 1 new Cybernetic into the Target. At the end of the 4th Event you must spend 1 Hour doing the final Conversion. Before you begin this process you must get approval from 2 Plot Marshals so that the Willing Target understands everything involved with the procedure before you begin.
+
+name: Faraday Cage
+cost: 6
+freq: periodic
+type: defense
+lists: Cybrid:Conversion_Specialist
+desc: Defends against an Attack that specifically Target Machines, Tech Items, or Cybernetics.
+
+name: Energize
+cost: 4
+freq: per-event
+type: special
+lists: Cybrid:Conversion_Specialist
+desc: Spend 1 Minute Concentrating on a Friendly Target’s spent Cybernetic (you may also Target yourself). Cybernetic is refreshed and gains the use of its Periodic or Per-Event ability. This Skill has no effect on continuous Cybernetics. A Target may only benefit from this Skill Once Per-Event.
+
+name: Command Word Cybrid
+cost: 4
+freq: periodic
+type: attack;mental
+lists: Cybrid:Shadow_Broker
+desc: Give a Target a 1 word command. Target must fulfill that Command to the best of their ability. Use of this Skill can be paired with a gesture such as pointing. Unless the Target is another Cybrid this Skill cannot be used to cause someone to throw their life away. The effect of this Skill lasts for 1 minute. 
+
+name: Willpower
+lists: Cybrid:Shadow_Broker
+
+name: Privacy
+cost: 4
+freq: per-event
+type: special
+lists: Cybrid:Shadow_Broker
+desc: Spend 1 Minute examining the Area. You discover all hidden listening/recording devices. In addition, all listening/recording devices save for those you explicitly specify do not work within the Area for 1 hour.
+
+name: Connections(Underworld) *
+cost: 5
+freq: permanent
+type: special
+lists: Cybrid:Shadow_Broker
+desc: You begin each event with 2 Influence that may be spent on any Scheme directly connected to the Underworld.
+
+name: Hive Mind
+cost: 5
+freq: periodic
+type: special
+lists: Cybrid:Hive_Sculptor
+desc: Defends you or any of your Hive members from a Mental Attack. You must be within Melee Weapon Range in order to use this on a Hive member. Once you purchase this Skill, if one member of the Hive is effected by a Mental Attack that is not Defended against, all members of the Hive within Melee Weapon Range are also effected by that Attack.
+
+name: Hive Swarm
+cost: 1
+freq: periodic
+type: special
+lists: Cybrid:Hive_Sculptor
+desc: You may activate this Skill to Traverse directly toward another Hive Member or have another Hive member Traverse directly to you.
+
+name: Hive Workers
+cost: 3
+freq: per-event
+type: special
+lists: Cybrid:Hive_Sculptor
+desc: Any Skill you use that takes time has its time reduced by 5 Seconds per Minute it takes for each Hive member you have assisting you, not including yourself. Hive members do not have to have any particular Skills to assist you. This Skill cannot be used in conjunction with any other time reduction Skills and cannot reduce the amount of time needed by more than half.
+
+name: Hive Synthesis
+cost: 4
+freq: per-event
+type: special
+lists: Cybrid:Hive_Sculptor
+desc: You or any member of the Hive may drop to the Critical stage of their Death Count in order to bring another member of the Hive out of any Stage of their Death Count. Target is restored to 1 Body+1 for each member of the Hive.

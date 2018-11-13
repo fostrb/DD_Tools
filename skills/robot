@@ -1,0 +1,101 @@
+name: Willpower
+cost: 4
+freq: periodic
+type: defense
+lists: Robot:General
+desc: Defends against all Mental Attacks, save for those that would cause you to suffer a Trauma.
+
+name: Self Repair
+cost: 4
+freq: per-event
+type: special
+lists: Robot:General
+desc: Spend 1 minute RP standing still and acting as though your body is repairing itself. You are restored to full BP and AP at the end of the minute. If you are Attacked while in this State you immediately go to the Critical Stage of your Death Count and cannot use this Skill again for the remainder of the Event.
+
+name: Armored
+lists: Robot:General
+
+name: Adaptive Components *
+cost: 12
+freq: permanent
+type: special
+lists: Robot:General
+desc:  This Skill grants you different benefits depending on which Species/Race side you have chosen. Military Unit gains +1 Damage to all Attacks. Labor Unit gains 6 Components of any type Per Period to spend explicitly on Crafting Plans. These Components are not physically gained, but rather they are utilized at the time the Plan is Crafted. Components gained this way do not carry over from Period to Period and my only be used to Craft 1 Plan, and only a Plan which you are specifically Crafting. Utility Unit may take either the Military or Labor Unit benefit, but must choose which benefit they are taking and write it on their Character Card before they begin the Event. If they take the Military Unit benefit, they must choose to apply that benefit to either Melee Weapons or Ranged Weapons.
+
+name: Disassemble
+cost: 8
+freq: periodic
+type: attack;melee
+lists: Robot:Combat_Unit
+desc: Tag Target’s Limb. Limb is Destroyed. If this Attack was successful, you gain a free use of the Skill “Disassemble” that may only be used on the same Target. Free uses of this Skill can chain until all of Target’s Limbs are Destroyed. Additional Attacks agains the Target must be made within 5 seconds of the previous Attack.
+
+name: Reactive Armor
+cost: 5
+freq: periodic
+type: defense
+lists: Robot:Combat_Unit
+desc: Defends against any Non-Surprise Ranged or Melee Attack. You lose 5 AP. You must have at least 5 AP in order to use this Defense.
+
+name: Auto Fire
+cost: 4
+freq: permanent
+type: special
+lists: Robot:Combat_Unit
+desc: Allows you to continue to make Ranged Attacks while Downed. This Skill does not allow you to use Periodic Skills, only fire for Weapon Damage. This Skill ends immediately if you are hit by an Attack, or if you Drop into any other Stage of your Death Count.
+
+name: Robot Craft: Bombs *
+cost: X+2
+freq: permanent
+type: crafting knowledge
+lists: Robot:Combat_Unit
+desc:  Allows you to read, understand, learn and utilize Rank 1 and 2 Bomb Plans. When purchasing this Skill you gain a Rank 1 and a Rank 2 Bomb Plan of your choice, along with 1 random Rank 1 and Rank 2 Bomb Plan. Crafting Skills have a doubling Build cost after every other Purchase (2, 2, 4, 4, 8, 8, etc). The cost of this Skill is 2 Build + wherever it falls along that line. This means that if this is your first Crafting Skill purchase it would cost 4 Build, but if it were your third, it would cost 6 Build.
+
+name: Lock Servos
+cost: 5
+freq: permanent
+type: special
+lists: Robot:Labor_Unit
+desc: Can only be used in a doorway. Allows you to become a makeshift door, which will only allow those who you permit inside or out. Place your hands on both sides of the door frame and declare this Skill. Once engaged, Lock Servos cannot be disengaged for 5 minutes. You are not immune to Damage or Skills (save for those that would cause you to move). Only Skills that specifically Destroy doors can be used to dislodge you (in which case such a Skill would put you into the Critical Stage of your Death Count). Even if you are Dead, you will remain locked in place for the duration.
+
+name: Blast Zone
+lists: Robot:Labor_Unit
+
+name: Assembly Line
+cost: 7
+freq: permanent
+type: special
+lists: Robot:Labor_Unit
+desc:  When Treating a Target or Crafting. Time spent doing the same Treatment or Crafting after the first is Reduced in time by half to a minimum of 5 minutes. Secondary Treatment or Crafting must be started within 10 seconds of the previous. Other Skills and Abilities that would reduce time needed to Craft or Treat are factored in before this Skill.
+
+name: Space-Lift Operator
+lists: Robot:Labor_Unit
+
+name: Flare
+cost: 6
+freq: per-event
+type: special
+lists: Robot:Utility_Unit
+desc: Call “Mass Flare”. All Hidden Targets within the Sound of your Voice are no longer Hidden. In addition, once you call this Skill you gain the Defense “Flare Immunity”. The “Flare Immunity” part of this Skill lasts for 1 Minute and may be called against any and all Surprise Attacks for the duration.
+
+name: Replacement Parts
+cost: 2
+freq: permanent
+type: treatment
+lists: Robot:Utility_Unit
+desc: Spend 1 Minute Treating Target Machine. You may then Destroy any one of your Limbs or Senses in order to fix the Target’s Destroyed Limbs or Senses.
+
+name: Adaptation
+cost: X+3
+freq: permanent
+type: special
+lists: Robot:Utility_Unit
+desc: You must choose either; Athletics X, Science X, Investigate X, or Research X when purchasing this Skill (see the Universal Skills list). You may then purchase the chosen Skill at the base cost of the Skill +3 Build, when purchasing that Skill instead of choosing only one Keyword Speciality, you may choose 2. This Skill may only ever be purchased once, allowing you to have 2 Keyword Specialties in only one of the 4 noted Skills.
+
+name: Unit Repair *
+cost: 4
+freq: permanent
+type: treatment
+lists: Robot:Utility_Unit
+desc:  You may use this Skill “Self Repair” on any Friendly Target Machine. In addition you gain the Skill “Bandage” (see the Sick Bay Class List in the Rulebook). This Bandage may only be used on Machine Targets.
+
+

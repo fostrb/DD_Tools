@@ -1,0 +1,107 @@
+name: Suckle
+cost: 3
+freq: periodic
+type: special
+lists: Elysian:General
+desc:  When a Target within Melee Range of you utilizes a Skill, or is the Target of a Skill, you may call “Suckle” to duplicate that Skill on yourself. This only applies to Skills whose effect is instantaneous, and whose conditions you are able to meet. So, you could not Suckle "Hide" unless you were already within Cover. Likewise you could not Suckle "Defensive Stance" unless you had a Shield. You cannot Suckle any Skill that is offensive in nature. You cannot Suckle a Suckle.
+
+name: Pick Pockets
+cost: 4
+freq: periodic
+type: special
+lists: Elysian:General
+desc: – Allows you to steal an object from a Target’s pocket. Requires a Marshal to be present before utilizing this Skill. Interact with Target for 1 minute. At some point within that minute you must lay a hand on the pocket you wish to steal from for at least 5 Seconds (this need not be continuous). The Marshal will then go to the Target to indicate that they have been Pick Pocketed. If the pocket you wish to steal from is in a place that common decency would not allow you to touch, you must inform the Marshal and they will indicate the area you must touch in order to complete the transaction. You may indicate to the Marshal that you are looking to steal a specific object from the Target’s pocket, if the Target has that object in that pocket you receive it. Otherwise, you just get one random object in the Target’s pocket. Unless one has a Defense against Pick Pocketing, the Skill is generally undetectable… however as this is a Marshaled Skill, the Marshal may base your success on how you interacted with the Target. This Skill may also be used to place an item in someone’s pocket.
+
+name: I Know My Kind
+cost: 6
+freq: periodic
+type: defense
+lists: Elysian:General
+desc: Defends against any Attack from an Elysian
+
+name: Feign Death
+cost: 2
+freq: periodic
+type: special
+lists: Elysian:General
+desc: Allows you to lay Prone and appear as if Dead. Any attempt to Diagnose you only reveals that you are Dead. While utilizing Feign Death you are considered to be in a Surprise State.
+
+name: From the Top
+cost: 5
+freq: permanent
+type: special
+lists: Elysian:Syndicate_Member
+desc:  At the Start of each Event you gain 1 Random Component for each Contract you have. In addition you are always considered to have 1 Contract for the purposes of this Skill as well as Smuggling rolls. 
+
+name: Impressive (Elysian)
+cost: 6
+freq: permanent
+type: special
+lists: Elysian:Syndicate_Member
+desc:  All Schemes started by you that directly involve the Elysium or Elysians or any property directly owned or operated by Elysians cost half Influence rounded up to a maximum discount of 10 Influence, whichever is less (for example if the Scheme costs 9 you this Skill would reduce the cost to 5, half rounded up. If the Scheme costs 40 Influence, this skill would reduce the cost to 30 as this is the maximum discount you can receive). This Skill does apply to all Standard Schemes. Direct involvement with the Faction in question is up to the discretion of the Plot Marshal, however a general rule of thumb regarding this is as follows; if the Scheme is primarily about or primarily involving the Faction it is good, if the connection is tangential, it is not.
+
+name: Intimidate
+cost: 2
+freq: periodic
+type: attack;voice/mental
+lists: Elysian:Syndicate_Member
+desc: Spend 1 Minute talking to Target. Then choose for the Target to either be Panicked, Afraid, or Enraged. Target is effected as per that Status effect.
+
+name: Quick Escape
+lists: Elysian:Syndicate_Member
+
+name: Claustrophoria
+cost: 6
+freq: permanent
+type: special
+lists: Elysian:Dregs
+desc: While indoors, you may may become Hidden by achieving Cover and spending 1 Stamina.
+
+name: Scurry
+cost: 5
+freq: periodic
+type: defense
+lists: Elysian:Dregs
+desc: Defends against any Ranged or Melee Attack so long as you are within touch distance of a Cover or you are Hidden.
+
+name: Deep Breath
+cost: 4
+freq: periodic
+type: defense
+lists: Elysian:Dregs
+desc: Defends against any airborne area effect (like a room filled with gas) for 1 minute after activation. Also allows you to survive in a 0 oxygen environment for 5 minutes after activation. This Skill can be used in response to an effect (like a room suddenly filling with gas).
+
+name: Contraband
+cost: 4
+freq: per-event
+type: special
+lists: Elysian:Dregs
+desc: At any point during the Event you may declare a single item. So long as you are able to physically hide this item on your person, it cannot be found via a casual search. This Skill provides you with the reasonable benefit of the doubt should the item become briefly visible, such as a shotgun you have tucked away in your trench coat becoming partially visible as you move down a hallway. You can pull an object in and out of Contraband at will, this does not constitute a separate use of this Skill. Additional purchases of this Skill allow you to declare additional items. The items must be singular, and cannot be used to contain other items. 
+
+name: Safe Passage
+cost: 5
+freq: periodic
+type: defense
+lists: Elysian:Pilgrims
+desc: Defends against any Ranged, Melee or Metaphysical Attack. Can only be used when no Friendly Target is within Traverse distance of you or when you are not in Combat (this Skill would allow you to Defend against the first Attack that would initiate Combat).
+
+name: Thieves Prosper
+cost: 5
+freq: permanent
+type: special
+lists: Elysian:Pilgrims
+desc: Whenever you would use the Skill “Pick Pockets” you gain all objects in the pocket you wish to steal from. If there are more than 8 objects in the pocket, you gain half (rounded down) of all the objects in that pocket.
+
+name: Rummage Blessing
+cost: 2
+freq: periodic
+type: special
+lists: Elysian:Pilgrims
+desc: When attending to a Target in their Death Count, Dead, or Unconscious, you may utilize this Skill. Target must hand you 1 Component, so long as they have at least 1 Component on their person. The Target does not realize you have stolen from them. This Skill can be blocked by any Skill that would defend against Pick Pockets.
+
+name: To Hold Is To Own *
+cost: X+1
+freq: permanent
+type: special
+lists: Elysian:Pilgrims
+desc:  When purchasing Rituals (see the Rituals Supplemental Rulebook), you may purchase any non-Entropic Ritual at the cost of +1 Build. 

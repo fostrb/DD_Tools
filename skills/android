@@ -1,0 +1,111 @@
+name: Directive 1
+cost: 5
+freq: permanent
+type: special
+lists: Android:General
+desc: When a Human within Melee Weapon Range of you is Tagged by an Attack you may save them from the Attack and take the Attack upon yourself instead. When using Directive 1 you do not benefit from any Skill that would reduce the Damage or the effect of the Attack.
+
+name: Defend Human
+cost: 2
+freq: periodic
+type: defense
+lists: Android:General
+desc: Can only be used in conjunction with Directive 1. Defends against any Ranged or Melee Attack that you received as a result of Directive 1. You lose 1 Stamina and are Dazed.
+
+name: Assistance
+cost: 6
+freq: permanent
+type: special
+lists: Android:General
+desc: You may aid a Target to reduce the time needed for any activity or Skill that takes time. For every minute the Skill takes, this Skill reduces the time by 10 seconds. Other Skills and abilities that reduce time are taken into account before this Skill is applied. This Skill may only be used to aid a single Target at a time.
+
+name: Psychoanalyze
+cost: 2
+freq: permanent
+type: treatment
+lists: Android:General
+desc: Study Target for 5 minutes while talking with Target in a directed fashion. At the end of which you know all the Traumas and mental afflictions (both permanent and temporary) of the Target. If you are attempting to be covert with your diagnosis, you may ask a Marshal at the end of the 5 minutes to approach the player regarding the answers of the diagnosis. This is not considered a Mental Attack and cannot be Defended against.
+
+name: Counsel
+cost: 6
+freq: permanent
+type: treatment
+lists: Android:Entertainment_Unit_Epsilon
+desc: This Skill allows you to cure a Target’s Trauma. In order to use this you must first know the Trauma you are looking to cure. Lesser Traumas can be cured in a single Session, and requires 10 minutes of roleplay with the Target. Greater Traumas require 2 Sessions spread out over 2 Events. The first Session takes 20 minutes of roleplay with the Target, and the second Session takes 10. A Target may only benefit from Counsel once an event. Skills that may reduce the time for Counsel cannot reduce the time to less than 10 minutes. Once you have Counseled a Target, you may sign off on the Target’s Card that their Trauma is Cured or in Treatment. Counsel cannot be Defended against, however you must continuously interact with the Target in a meaningful and directed fashion for the entire duration of the Skill. If the Target leaves the session for any reason the Skill fails and you must start again from the beginning of the session. This Skill is not affected by Miracle Worker. This Skill also lets you assist in the treatment of Neurological Disease (see the Disease Section and Space Medicine Supplemental Handbook).
+
+name: Performance
+cost: 2
+freq: permanent
+type: treatment
+lists: Android:Entertainment_Unit_Epsilon
+desc: Perform (dancing, singing, storytelling, etc) before any number of Targets for 5 minutes. All Targets who were there the entire time are restored to full Stamina. This Skill cannot be used while in Combat.
+
+name: Beguile
+cost: 5
+freq: permanent
+type: special
+lists: Android:Entertainment_Unit_Epsilon
+desc: Perform (dancing, singing, storytelling, etc) before a Target wearing the Negotiate Symbol for at least 2 minutes. You may then make one request of the Target. If the request is reasonable and within the Target’s nature and ability to grant, they will agree to your request. For more complex requests, please speak to a Plot Marshal before using this Skill. A Target may only be effected by this Skill Once Per Event.
+
+name: Cook *
+cost: 5
+freq: permanent
+type: special
+lists: Android:Entertainment_Unit_Epsilon
+desc: You can purchase any Ritual with the Keyword “Meal”
+
+name: Dissertation
+cost: 4
+freq: permanent
+type: special
+lists: Android:Education_Model_Theta
+desc: Targets you Teach have access to the Skills you taught them the Period after they learn it. A Target may only benefit from this Once Per Event. In addition to this you may Teach multiple Targets the same Skill at the same time or Teach an individual target in half the time. This Skill may be used in conjunction with another Character’s lesson but the Target does not gain access to the learned Skill next Period unless it is a Skill that you also know and have spent Build to acquire. 
+
+name: Data Banks
+cost: 2
+freq: per-event
+type: special
+lists: Android:Education_Model_Theta
+desc:  When using the Skill “Research X” you may, you may add in any 1 “Key Word” you wish. With multiple purchases of this Skill, this Skill can be used multiple times on the same “Research X” topic.
+
+name: Lesson Plan
+cost: 3
+freq: permanent
+type: special
+lists: Android:Education_Model_Theta
+desc: After 5 minutes of directed Roleplay with a Target you can teach any Skill that the Target is able to Teach for the remainder of the Period.
+
+name: Teacher's Pet
+cost: 2
+freq: periodic
+type: special
+lists: Android:Education_Model_Theta
+desc: After Teaching a Target you may utilize this Skill. You may choose to give the Target one of the following for the remainder of the Event; +5 Body, +1 Melee Damage, +1 Ranged Damage, +2 Stamina. This Skill cannot be used on any Target with more than 50 Build. This Skill cannot be used on a Target more than Once Per Event.
+
+name: Static Pulse
+cost: 5
+freq: permanent
+type: special
+lists: Android:Guardian_Unit_Model_Gamma
+desc: Can only be used after your Armor is reduced to 0, is Destroyed or Obliterated. Target who caused this is Stunned. This is both a Ranged and Melee Attack and can be blocked by any Defense that would Defend against such.
+
+name: Reform Armor
+cost: 3
+freq: periodic
+type: special
+lists: Android:Guardian_Unit_Model_Gamma
+desc: Restores your AP (Armor Points) to full. Requires 1 minute of Concentration. If you are struck at any point while utilizing this Skill the Skill fails, and cannot be used again for the remainder of Combat.
+
+name: Vantage Point
+cost: 6
+freq: permanent
+type: special
+lists: Android:Guardian_Unit_Model_Gamma
+desc: You do +1 Ranged Damage and have +1 Soak against Ranged Attacks while in Cover.
+
+name: Support Unit
+cost: 4
+freq: permanent
+type: special
+lists: Android:Guardian_Unit_Model_Gamma
+desc: - If you have the Skill “Vantage Point” Anyone who shares the same Cover with you gains the benefits the Skill. In addition, you can utilize the Skill “Reform Armor” on other Targets. When utilizing “Reform Armor” if the Skill is successful, the Target gains a single use of “Static Pulse”, if you have that Skill.

@@ -1,0 +1,111 @@
+name: Ancestors Voice
+cost: 3
+freq: periodic
+type: defense/attack
+lists: Aesir:General
+desc: Defends against any Skill that would cause you to become Afraid or Panicked. The Mental Effect is reflected back at the Attacker. If there is no clear Target, this Skill simply Defends against the Attack.
+
+name: Taunt
+cost: 2
+freq: periodic
+type: attack;voice/mental
+lists: Aesir:General
+desc:  Spend 10 Seconds actively Roleplaying with Target. Target is Taunted to you. 
+
+name: Armored
+cost: 6
+freq: permanent
+type: special
+lists: Aesir:General
+desc:  Your Armor Points can be restored during Combat by any Skill that can restore Body. However once you take this Skill all Attacks that do direct Body Damage (as a Damage Type), now do double Damage. 
+
+name: Phalanx
+cost: 9
+freq: permanent
+type: special
+lists: Aesir:General
+desc: You do +1 Damage and have a Soak of +1 against all Attacks so long as another Aesir is fighting next to you and within Touch Distance of you. Soaks cannot reduce Damage to less than 1.
+
+name: Divine Interception
+cost: 5
+freq: per-event
+type: defense
+lists: Aesir:Warrior_Caste
+desc:  Defends a Friendly Target from any Attack so long as you are within Melee Range of them. Tag Friendly Target with your Weapon to indicate that you have Defended the Attack.
+
+name: Flesh Wound
+cost: 4
+freq: periodic
+type: defense
+lists: Aesir:Warrior_Caste
+desc: Defends against any Melee or Ranged Non-Surprise Attack. You take 5 Body Damage instead of taking the effect of the Attack. The Damage you take from this Skill cannot be mitigated. You may choose to become Enraged.
+
+name: Clobber
+cost: 4
+freq: periodic
+type: attack;shield
+lists: Aesir:Warrior_Caste
+desc: Take a step toward Target to signify knocking your opponent with your Shield. Target takes 10 Overpower Damage.
+
+name: Endless Training *
+cost: 8
+freq: permanent
+type: special
+lists: Aesir:Warrior_Caste
+desc: Grants you the Skill “Athletics” (see the Universal Skills list). In addition to the benefits provided by that Skill, Stamina spent on the standard +Damage or +Soak benefits, now provide a +2 benefit instead of a +1. 
+
+name: Sacrifice of the Gods
+cost: 6
+freq: permanent
+type: treatment
+lists: Aesir:Religious_Caste
+desc: Can only be used on a willing Target who is in their Death Count and during Combat (a willing target in this case represents the soul’s willingness to agree (read: you agree as an OOG mechanic)). Spend 1 minute roleplay over the target. Target dies. Target immediately returns with full life, full stamina, and 20 Armor and for the duration of Combat has a Soak of 2, does +2 Damage from all Melee Weapons they wield, is immune to Fear, Panic, and Calm, and may choose to regain all of their Periodic Skills as part of their Floating Refresh. Immediately following Combat Target dies again. These are considered as 2 deaths and must be handled as such. Target gains 2 Vaults Modifiers for the remainder of the event.
+
+name: Sign of the 4th Caste
+cost: 3
+freq: per-event
+type: special
+lists: Aesir:Religious_Caste
+desc: After a 10 minute ceremony you may designate a willing and worthy non-Aesir Target as an Aesir for the remainder of the Event. Target gains the Aesir free Racial/Species Skill that grants them half time on Dazed, Weakened, Panicked, and Afraid. If the Target has “Renown” with the Aesir, this Skill can be made permanent on a Target via a Scheme costing 30 Influence.
+
+name: Aegis
+cost: 4
+freq: periodic
+type: rhetoric
+lists: Aesir:Religious_Caste
+desc:  Can only be used on Aesir. Targets gain a Defense against the next Attack that hits them. This applies only to the very next Attack. 
+
+name: Voice of the gods *
+cost: 5
+freq: permanent
+type: special
+lists: Aesir:Religious_Caste
+desc: “Ancestors Voice” now works against all Voice attacks. For the purpose of this Skill call “Voice of the Gods” instead of “Ancestors Voice”.
+
+name: Hammer of the Gods *
+cost: 9
+freq: permanent
+type: special
+lists: Aesir:Wayfarer_Caste
+desc: This Skill grants you the Skill “Erudition” (You may utilize Rank II Recipes, Blueprints, Designs, and Diagrams. You must have the applicable Skill granting you the ability to utilize Rank I Plans in order to for this Skill to have any effect). In addition to this, you are not limited to the number of Upgrades you can put in an Item per Event. 
+
+name: Mend Bones and Steel
+cost: 3
+freq: periodic
+type: treatment/special
+lists: Aesir:Wayfarer_Caste
+desc: Spend 30 seconds repairing a Destroyed Target (this can be anything capable of being Destroyed). Destroyed Target is restored to full use. If Destroyed Target is an Item with Upgrades, one of the Upgrades in this item must be Obliterated.
+
+name: Beginner Craft: Any *
+cost: 2
+freq: permanent
+type: crafting knowledge
+lists: Aesir:Wayfarer_Caste
+desc:  Allows you to read, understand, learn and utilize Rank I Plans of the Chosen type. This specific Skill can only be purchased once. Purchase of additional crafting knowledges doubles every other purchase after the first. This is cumulative (2, 2, 4, 4, 8..)
+
+name: Stellar Cartography
+cost: 6
+freq: permanent
+type: special
+lists: Aesir:Wayfarer_Caste
+desc: Grants you the Skill “Research X” (see the Universal Skills list). When purchasing this Skill you gain the Keyword “Stellar Cartography” providing you a bonus to Research involving navigation and general information regarding star systems. You must also choose one of the noted specializations within “Research X” when purchasing this Skill.

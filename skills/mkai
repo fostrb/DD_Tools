@@ -1,0 +1,104 @@
+name: Teleportation Specialist
+cost: 5
+freq: permanent
+type: special
+lists: M'kai:General
+desc: Any Skill or Cybernetic that allows you to Teleport is considered Periodic if it is Per-Event or is Per-Combat if it is Periodic.
+
+name: Phase Leech
+cost: 1
+freq: periodic
+type: special
+lists: M'kai:General
+desc: You may activate this whenever someone within Traverse Distance of you has Phase Sight or can Attack for Phase Damage. You also have Phase Sight or can Attack for Phase Damage. Once activated this lasts for 10 minutes. This Skill lasts for 10 minutes even if the Skill it is leeching from does not.
+
+name: Coagulant
+cost: 4
+freq: permanent
+type: special
+lists: M'kai:General
+desc: All Bleed effects on you end automatically after 5 minutes.
+
+name: Companion
+cost: 1
+freq: periodic
+type: special
+lists: M'kai:General
+desc: Allows you to take a Friendly Willing Target with you when you Teleport, or when a friendly Target within Melee Weapon Range uses a Traverse Skill you may copy that Traverse Skill.
+
+name: Deep Breath
+lists: M'kai:Low_Gendered
+
+name: Sacri-Port
+cost: 4
+freq: periodic
+type: special
+lists: M'kai:Low_Gendered
+desc: Allows you to Teleport a willing Target to a Teleportation pad you designate at the beginning of the Event. You drop to the Critical Stage of your Death Count. Sacri-Port can be used in Conjunction with Respawn.
+
+name: Mind of Child
+cost: 4
+freq: permanent
+type: special
+lists: M'kai:Low_Gendered
+desc: Any Skill that would cause you to become Afraid, Enraged, or Calmed instead causes you to become Panicked. This Skill is always active.
+
+name: Respawn
+lists: M'kai:Low_Gendered
+
+name: Poison Sacs
+cost: 2
+freq: periodic
+type: attack;ranged
+lists: M'kai:Mid_Gendered
+desc: You may use Spell Packet to deliver a Rank 1 Contact Poison. This Skill is blocked by Shields. This Skill does not work if you are rendered Mute or your Mouth/Tongue is otherwise Destroyed/Obliterated.
+
+name: M'kai Craft: Poisons
+dt: True
+cost: X+2
+freq: permanent
+type: crafting knowledge
+lists: M'kai:Mid_Gendered
+desc:  Allows you to read, understand, learn and utilize Rank 1 and 2 Poison Plans. When purchasing this Skill you gain a Rank 1 and a Rank 2 Poison Plan of your choice, along with 1 random Rank 1 and Rank 2 Poison Plan. Crafting Skills have an doubling Build cost after every other Purchase (2, 2, 4, 4, 8, 8, etc). The cost of this Skill is 2 Build + wherever it falls along that line. This means that if this is your first Crafting Skill purchase it would cost 5 Build, but if it were your third, it would cost 7 Build.
+
+name: Regenerative Teleportation
+cost: 5
+freq: permanent
+type: special
+lists: M'kai:Mid_Gendered
+desc: Any time you Teleport you regain 10 Body and 1 Stamina.
+
+name: Tireless
+cost: 3
+freq: periodic
+type: defense
+lists: M'kai:Mid_Gendered
+desc: Defends against Dazed, Weakened, and/or Stunned.
+
+name: Command Word M'kai
+cost: 4
+freq: periodic
+type: attack; mental
+lists: M'kai:High_Gendered
+desc:  Give a Target a 1 word command. Target must fulfill that Command to the best of their ability. Use of this Skill can be paired with a gesture such as pointing. Unless the Target is another M’kai this Skill cannot be used to cause someone to throw their life away. The effect of this Skill lasts for 1 minute.
+
+name: Survivor
+cost: 8
+freq: permanent
+type: special
+lists: M'kai:High_Gendered
+desc: Any Attack that would drop you to the Critical stage of your Death Count instead drops you to the Out Stage of your Death Count. Any Attack that would cause you to Die instantly (unless that Skill causes continuous death like being point blank in a nuclear explosion, or being tossed out an airlock into the vacuum of space) instead causes you to drop the Critical Stage of your Death Count.
+
+name: Emergency Teleport
+cost: 4
+freq: periodic
+type: special
+lists: M'kai:High_Gendered
+desc: You may activate any Teleportation Skill or Cybernetic to Defend against any Ranged or Melee Non-Surprise Attack. You may also activate Emergency Teleport when in the Downed Staged of your Death Count.
+
+name: Alien Mind
+cost: 6
+freq: periodic
+type: defense
+lists: M'kai:High_Gendered
+desc: Defends against any Mental Attack. You are Immune to that Attack for 1 minute after using this Skill.

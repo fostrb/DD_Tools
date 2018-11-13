@@ -1,0 +1,95 @@
+name: Beginner Craft: Any *
+lists: Oniri:General
+
+name: Freedom Fighter
+cost: 10
+freq: permanent
+type: special
+lists: Oniri:General
+desc: You do +1 Damage against all Human Targets.
+
+name: Contragand
+lists: Oniri:General
+
+name: Change Spots
+cost: 1
+freq: periodic
+type: special
+lists: Oniri:General
+desc: When Targeted by a Skill that would cause you to become Enraged, Panicked, or Afraid, you may choose to become either Enraged, Panicked, or Afraid. For example, if you are Targeted by a Skill that would cause you to become Afraid, you may choose instead to become Enraged, or Panicked.
+
+name: Beguile
+lists: Oniri:Loroniri, Kingdom of the Listeners and Tale-Spinners
+
+name: Shout
+lists: Oniri:Loroniri, Kingdom of the Listeners and Tale-Spinners
+
+name: Hear No Evil, Speak No Evil
+cost: 4
+freq: permanent
+type: special
+lists: Oniri:Loroniri, Kingdom of the Listeners and Tale-Spinners
+desc: You may use your “Change Spots” Skill to Defend against any Attack that would render you Deaf or Mute.
+
+name: Fly on the Wall
+cost: 4
+freq: per-event
+type: special
+lists: Oniri:Loroniri, Kingdom of the Listeners and Tale-Spinners
+desc: Spend 1 Minute Concentrating. You can enter any Area or Room and stay there for up to 10 minutes, no matter what impediment may stand in your way. During this period of time you are considered to be Out of Game, and cannot interact with anything in that room, nor use any Skills. You may however use any Tech Item you have available to record anything going on in that Area/Room. When this Skill ends you immediately appear in the same spot in which you enacted the Skill. This Skill may not used while you are actively engaged in Combat. Once this Skill has been activated it may not be used again for 1 hour.
+
+name: Psychometry *
+cost: 5
+freq: permanent
+type: special
+lists: Oniri:Sajoniri, Kingdom of Sensation
+desc: Purchasing this Skill counts as a
+purchase of the Skill “Investigate X” (see the Universal Skills list) with Psychometry replacing the Keyword Specialty. Spend X amount of time specified by a Plot Marshal examining a Dead Target or an Object. For a Dead Target you gain general information regarding the last 5 minutes of the Target’s life. For an object you gain general information regarding the environment in which the object was created. Requires a Plot Marshal Requires Marshal.
+
+name: Perfect Taste
+cost: 2
+freq: periodic
+type: special
+lists: Oniri:Sajoniri, Kingdom of Sensation
+desc: Allows you to determine if an object is Poisoned. Once this Skill is used, you may freely consume the object without being Poisoned. This secondary effect lasts for 1 hour.
+
+name: Circumlocution
+cost: 6
+freq: permanent
+type: special
+lists: Oniri:Sajoniri, Kingdom of Sensation
+desc: Your “Change Spots” Skill now also allows you to choose which Limb or Sense is Destroyed or Obliterated when a Limb or Sense is the Target of a Skill that would Destroy or Obliterate it. You may not choose a Limb or Sense that is already Destroyed/Obliterated as the Target of “Change Spots”. This cannot be used against Skills that affect multiple Limbs or Senses and cannot be used to change an Attack against a Limb into an Attack against a Sense.
+
+name: Balance
+cost: 2
+freq: periodic
+type: defense
+lists: Oniri:Sajoniri, Kingdom of Sensation
+desc: Defends against Thrown and Prone.
+
+name: Phase Sight
+cost: 5
+freq: permanent
+type: special
+lists: Oniri:Xanoniri, Kingdom of the Piercing Eye
+desc: Allows you to see and interact with things that are out of tune with our dimension.
+
+name: All Seeing *
+cost: 10
+freq: permanent
+type: special
+lists: Oniri:Xanoniri, Kingdom of the Piercing Eye
+desc:  This Skill Grants you the Skill “Investigate X” with all 3 Keyword Specialities. When utilizing “Investigate X” it may only be used Once Per Period.
+
+name: Second Sight
+cost: 4
+freq: permanent
+type: special
+lists: Oniri:Xanoniri, Kingdom of the Piercing Eye
+desc: You may use your “Change Spots” Skill to Defend against any Attack that would render you Blind.
+
+name: Mesmerize
+cost: 6
+freq: periodic
+type: attack;mental
+lists: Oniri:Xanoniri, Kingdom of the Piercing Eye desc:  After spending 1 minute Talking to a Target and maintaining eye contact with them, you may use this Skill to force the Target to carry out a simple task. This task must explained in one non-compound sentence, and may not be violent in nature. The Target remains affected by this Skill for 5 minutes. Once this Skill has ended, the Target has no memory of what they did while under the effect of this Skill or of a Skill being used upon them.

@@ -46,42 +46,83 @@ type: special
 lists: Terran:City_Folk
 desc: You do +1 Ranged Damage while Indoors
 
-name:
-cost:
+name: Very Influential
+cost: 6
 prof: False
-freq:
-type:
-lists:
-desc:
+freq: permanent
+type: special
+lists: Terran:City_Folk
+desc: You have +1 Influence per Event. In addition to this the Schemes; Notoriety, Renown, and Fame cost 20% less Influence.
 
-name:
-cost:
+name: Income Disparity
+cost: 3
 prof: False
-freq:
-type:
-lists:
-desc:
+freq: permanent
+type: special
+lists: Terran:City_Folk
+desc:  Your Income level from any Occupation is always 1 higher than its current level (or if you have no Occupation your Income Level is at 1).
 
-name:
-cost:
+name: Fight Not Flight
+cost: 3
 prof: False
-freq:
-type:
-lists:
-desc:
+freq: periodic
+type: defense
+lists: Terran:Country_Folk
+desc:  Defends against Afraid and Panicked. You become Enraged and must immediately Attack the one who Targeted you. This can only be used on Skills that have a Target you are able to see.
 
-name:
-cost:
+name: Charge
+cost: 3
 prof: False
-freq:
-type:
-lists:
-desc:
+freq: periodic
+type: attack;melee
+lists: Terran:Country_Folk
+desc: Traverse toward Target. Tag Target. Target takes +5 Weapon Damage.
 
-name:
-cost:
+name: Knock Out
+cost: 5
 prof: False
-freq:
-type:
-lists:
-desc:
+freq: periodic
+type: attack;melee
+lists: Terran:Country_Folk
+desc: Tag Target wearing the Negotiate Symbol. Target is rendered Unconscious. Attack must be delivered to the Target’s chest.
+
+name: Over For Supper
+cost: 5
+prof: False
+freq: permanent
+type: special
+lists: Terran:Country_Folk
+desc: Reduce the Influence cost of any “Contact” Scheme by 2 if you share a meal with the potential Contact. Cost is reduced by half, if the Meal was created via a Plan (see the Plans section of the Rulebook). This meal must eaten by both parties over the course of at least 10 minutes of roleplay. Having this Skill does not guarantee that you’ll be able to add the Target NPC as a Contact, for instance if you Poison the Contact or otherwise treat badly with them during the meal, it is unlikely they will want give you their number.
+
+name: Traverse
+cost: 3
+prof: False
+freq: periodic
+type: special
+lists: Terran:Nomad
+desc: Allows you to Traverse in any direction.
+
+name: Quick Escape
+cost: 5
+prof: False
+freq: periodic
+type: special
+lists: Terran:Nomad
+desc:  Place your hand on a window or door, you appear on the other side. Go out of game until your reach the exact spot where the door or window would let you out. You appear In Game on the other side. This Skill can only be used to escape from a dangerous situation out of a location. It will not allow you to escape into a building.
+
+name: Quick Hands
+cost: 3
+prof: False
+freq: periodic
+type: defense
+lists: Terran:Nomad
+desc: Defends against Pick Pocket or any attempt to steal something from you.
+
+name: New Life and New Civilizations
+cost: 6
+prof: False
+freq: permanent
+type: special
+lists: Terran:Nomad
+desc: You have +1 Influence Per Event. In addition to this, all Schemes that involve a Faction you have had no prior contact with before cost 1 less Influence.
+

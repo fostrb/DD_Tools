@@ -1,0 +1,103 @@
+name: Suckle
+lists: Cryo:General
+
+name: Flee
+lists: Cryo:General
+
+name: Fear Response
+cost: 4
+freq: periodic
+type: defense
+lists: Cryo:General
+desc: Defends against any Mental Attack. You are Afraid of the one who Targeted you.
+
+name: Icy Exterior
+cost: 8
+freq: permanent
+type: special
+lists: Cryo:General
+desc:  You have a Soak of +1 against all Attacks. You now take Double Damage from Fire Damage and half Damage rounded in favor of the Attacker from Frost Damage. Soaks cannot reduce Damage to Less than 1.
+
+name: Resist
+cost: 15
+freq: periodic
+type: defense
+lists: Cryo:Shell
+desc: Defends against any Attack.
+
+name: Mystic Shield
+cost: 4
+freq: periodic
+type: special
+lists: Cryo:Shell
+desc: After concentrating for 10 seconds you become Shielded.
+
+name: Time Out
+cost: 3
+freq: periodic
+type: special
+lists: Cryo:Shell
+desc: You become Shifted.
+
+name: Frost Armor
+cost: 8
+freq: permanent
+type: special
+lists: Cryo:Shell
+desc: You have 10 Armor Points (AP). This Armor is restored whenever you would restore your Stamina while outside of Combat.
+
+name: Respawn
+cost: 15
+freq: per-event
+type: special
+lists: Cryo:Countermeasure
+desc: When you would go from the Out to Critical Stage of your Death Count, you may activate this Skill. You become Shifted for 5 Minutes. After 5 Minutes you return with full Body and Stamina. You may also choose to utilize your Floating Refresh.
+
+name: Courage at a Distance
+cost: 8
+freq: permanent
+type: special
+lists: Cryo:Countermeasure
+desc: You do +1 Damage with all Ranged and Thrown Weapons, but are unable to wield any Melee Weapons. You may still use a Shield.
+
+name: Stun
+cost: 5
+freq: periodic
+type: attack
+lists: Cryo:Countermeasure
+desc: Tag Target. Target is Stunned.
+
+name: Death Blossom
+cost: 8
+freq: periodic
+type: special
+lists: Cryo:Countermeasure
+desc:  For 1 minute you do +5 Frost Damage with all Ranged Attacks. The duration of this Skill immediately comes to an end if you are hit by an Attack. Whenever this Skill comes to an end you are Dazed for 1 Minute. This Daze cannot be Treated.
+
+name: Cultural Examination *
+cost: 2
+freq: per-event
+type: special
+lists: Cryo:Analyst
+desc: After utilizing the Skill “Research X” (see the Universal Skills list) in conjunction with any topic pertaining to a Faction, you may utilizing this Skill to gain +1 Influence to be used on Schemes concerning that Faction. Influence gained this way is lost at the end of the Event.
+
+name: Shatter
+cost: 6
+freq: periodic
+type: attack
+lists: Cryo:Analyst
+desc: Tag Target. Target takes +5 Frost Damage. For the next minute Target takes double Damage from all Fire Damage Attacks.
+
+name: Cold Comfort
+cost: 6
+freq: permanent
+type: treatment
+lists: Cryo:Analyst
+desc: Spend 15 Minutes Treating a Target with a Lesser Flaw, or Lesser Trauma. Lesser Flaw, or Lesser Trauma is healed. Target has 2 Less Body and 2 Less Stamina for the remainder of the Event and can never shake the cold feeling your Treatment has left them with. Target may only benefit from this Skill Once Per Event. Roleplay for Treating Flaws and Traumas with this Skill should be roughly equivalent.
+
+name: Metabolic Arrest
+cost: 3
+freq: per-event
+type: treatment
+lists: Cryo:Analyst
+desc: Requires 1 Minute of Roleplay. Target someone suffering from a Disease. If the Disease has Stages, the next time the trigger for the next stage of the Disease would happen, this Skill defends against that the Trigger. This Skill may also be used on a Target within 1 minute of a Disease Stage Trigger being activated in order to return the Disease to its previous stage.

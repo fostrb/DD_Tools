@@ -1,0 +1,103 @@
+name: Of Myself
+cost: 4
+freq: per-event
+type: special
+lists: Weed:General 
+desc: You may use this Skill at any time to gain 3 Flora Components. This Skill can be used prior to Lay On.
+
+name: Ignore
+cost: 4
+freq: permanent
+type: defense
+lists: Weed:General 
+desc: Spend 2 Stamina. Instead of taking the effect of a Mental Attack you stare silently skyward for 1 minute. You may take no other action other than to Defend yourself for the duration.
+
+name: Regurgitate
+cost: 5
+freq: periodic
+type: defense
+lists: Weed:General 
+desc: Defends against any Poison.
+
+name: Young Exile *
+cost: 8
+freq: permanent
+type: special
+lists: Weed:General 
+desc: You gain the Skill "Science X" (see the Universal Skills list). In addition to this you gain the Keyword "Exile Technology", and may take part in any Tech Challenge involving Exile Technology.
+
+name: Taunt
+lists: Weed:Protector
+
+name: Bubble
+cost: 4
+freq: periodic
+type: special
+lists: Weed:Protector
+desc: Concentrate on Friendly Target for 10 seconds. Target is Shielded.
+
+name: Divine Interception
+lists: Weed:Protector
+
+name: Tough Exterior
+cost: 9
+freq: permanent
+type: special
+lists: Weed:Protector
+desc: You gain a Soak of 1 against all Attacks. Soaks cannot reduce damage to less than 1.
+
+name: First Contact
+cost: 5
+freq: permanent
+type: special
+lists: Weed:Ambassador
+desc: Making a Contacts cost you half as much Influence (rounded up).
+
+name: Infamy
+cost: 2
+freq: permanent
+type: special
+lists: Weed:Ambassador
+desc: You have +1 Influence Per-Event to use explicitly against Factions for whom you have Negative Reputation. When purchasing this Skill you may choose one Faction, you are now Distrusted by this Faction.
+
+name: Terror
+cost: 8
+freq: permanent
+type: attack;voice/mental
+lists: Weed:Ambassador
+desc: Spend 1 Stamina and 5 Seconds roleplaying with a Target who can hear you. You may choose for Target to be "Afraid" or "Panicked". Each time you use this Skill during Combat it costs an additional point of Stamina for each additional use after the first, up to a maximum of 3 Stamina.
+
+name: Shout
+cost: 9
+freq: permanent
+type: special
+lists: Weed:Ambassador
+desc: When using any Voice Attack or Rhetoric you may select 1 additional Target.
+
+name: Flourish
+cost: 5
+freq: permanent
+type: special
+lists: Weed:Seed_Shepard
+desc: Spend 1 Stamina in order to use a Treatment Skill on yourself. Treatment time is doubled for the duration of the Skill. This does not work in conjunction with Treatment Skills that fix Flaws or Traumas.
+
+name: Instant Regrowth
+cost: 2
+freq: periodic
+type: treatment
+lists: Weed:Seed_Shepard
+desc: Touch Target with a Destroyed Body Part. Body Part is restored to full function.
+
+name: Verdant Regrowth
+cost: 3
+freq: per-event
+type: treatment
+lists: Weed:Seed_Shepard
+desc: Touch Target Weed. Target is immediately restored to full Body. This can also be used on a Weed Target in any stage of their Death Count.
+
+name: Entangle
+cost: 5
+freq: per-event
+type: attack;melee
+lists: Weed:Seed_Shepard
+desc: Tag Target. If Target is Friendly both you and the Target enter a Shielded State. While in this state you may Treat the Target using any Treatment Skill, including those that only effect Weeds. Shielded State ends after Treatment is finished or after 5 Minutes, whichever is longer. If Target is an Enemy both you and the Target are Bound from the neck down and remain so as long as you maintain contact with the Target to a maximum length of 5 minutes. Target cannot be Damaged directly while bound, but may be effected by Mental Attacks and Negotiate Skills. Any Damage or effects outside of this that Tag either of you are absorbed entirely by you. If you are rendered Unconscious or enter your Death Count this Skill ends immediately.
