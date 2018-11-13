@@ -1,5 +1,10 @@
 import json
 files = ['terran', 'elysian', 'aesir', 'boz', 'robot', 'android', 'cybrid', 'cryo', 'weed', 'zelnalak', 'mkai', 'oniri', 'yana', 'mutant', 'maneater', 'universal']
+'''
+TODO: '\n' in skill files doesn't expand properly when pulling into json. Fix.
+'''
+
+
 
 skills = {}
 
@@ -78,33 +83,6 @@ with open('racial.json', 'r') as fp:
     new_skills = json.load(fp)
 
 for name, skill in new_skills.items():
-    #print(name)
     if 'Negotiate' == name:
         print(skill['desc'])
 
-'''
-top_lists = {}
-lists = {}
-
-
-for name, skill in skills.items():
-    for lst in skill.lists:
-        top_list = lst.split(':')[0]
-        low_list = lst.split(':')[1]
-        if top_list not in top_lists.keys():
-            top_lists[top_list] = {}
-        if low_list not in top_lists[top_list].keys():
-            llist = {}
-            top_lists[top_list] = llist
-        else:
-            llist = top_lists[top_list]
-        llist[name]=skill
-
-for l, side in top_lists.items():
-    print('-'*40)
-    print(l)
-    print('-'*40)
-    print(side)
-    for k, v in side.items():
-        print(k)
-'''
