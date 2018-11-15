@@ -1,10 +1,9 @@
 import json
 files = ['terran', 'elysian', 'aesir', 'boz', 'robot', 'android', 'cybrid', 'cryo', 'weed', 'zelnalak', 'mkai', 'oniri', 'yana', 'mutant', 'maneater', 'universal']
+
 '''
 TODO: '\n' in skill files doesn't expand properly when pulling into json. Fix.
 '''
-
-
 
 skills = {}
 
@@ -21,7 +20,7 @@ class Skill(object):
 
 if __name__ == '__main__':
     for f in files:
-        with open(f) as fp:
+        with open('racial/'+f) as fp:
             s = None
             for line in fp.readlines():
                 l = line.strip().split(':', 1)
