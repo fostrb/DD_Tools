@@ -1,9 +1,7 @@
 import json
-files = ['terran', 'elysian', 'aesir', 'boz', 'robot', 'android', 'cybrid', 'cryo', 'weed', 'zelnalak', 'mkai', 'oniri', 'yana', 'mutant', 'maneater', 'universal']
+import random
 
-'''
-TODO: '\n' in skill files doesn't expand properly when pulling into json. Fix.
-'''
+files = ['terran', 'elysian', 'aesir', 'boz', 'robot', 'android', 'cybrid', 'cryo', 'weed', 'zelnalak', 'mkai', 'oniri', 'yana', 'mutant', 'maneater', 'universal']
 
 skills = {}
 
@@ -17,6 +15,23 @@ class Skill(object):
         self.type = None
         self.lists = []
         self.desc = None
+
+    def load_dict(self, d):
+        for key, val in d.items():
+            if key in self.__dict__.keys():
+                self.__dict__[key] = val
+
+    def __repr__(self):
+        rstr = self.name
+        rstr += '\n'
+        rstr += str(self.cost) + ' build\n'
+        rstr += self.freq + ' ' + self.type + '\n'
+        rstr += self.desc + '\n'
+        rstr += 'lists:'
+        for l in self.lists:
+            rstr += ' ' + l
+        rstr += '\n'
+        return rstr
 
 if __name__ == '__main__':
     for f in files:
@@ -70,9 +85,12 @@ to_file = {}
 for name, skill in skills.items():
     s = {}
     for k, v in skill.__dict__.items():
-        s[k] = v
+        if '\\n' in str(v):
+            strv = str(v).replace('\\n', '\n')
+        else:
+            strv = v
+        s[k] = strv
     to_file[name] = s
-
 
 with open('racial.json', 'w') as fp:
     json.dump(to_file, fp, indent=4)
@@ -81,7 +99,17 @@ with open('racial.json', 'w') as fp:
 with open('racial.json', 'r') as fp:
     new_skills = json.load(fp)
 
+slist = []
 for name, skill in new_skills.items():
-    if 'Negotiate' == name:
-        print(skill['desc'])
+    s = Skill(name)
+    s.load_dict(skill)
+    slist.append(s)
+
+bad_reprs = []
+for s in slist:
+    try:
+        print(s)
+    except:
+        bad_reprs.append(s)
+
 
