@@ -13,10 +13,11 @@ TODO:
 
     Define Racial + (Class+Side) List classes
         -Racial lists hold skills and initial bonuses
-        -Class lists/sides:
+        -Class lists/sides + Racial subtypes:
             -Doomcaller Requires Dirty Tricks
-            -Sides provide free proficiencies
+            -class Sides provide free proficiencies
                 These don't count towards build cost of those profs next purchases.
+            -Only one racial subtype can be picked up
 
     Other Lists (Universal, Universal Prestige, Prestige[class])
 
