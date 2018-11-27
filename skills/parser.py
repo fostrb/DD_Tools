@@ -29,6 +29,7 @@ files = ['terran', 'elysian', 'aesir', 'boz', 'robot', 'android', 'cybrid', 'cry
 
 skills = {}
 
+
 class Skill(object):
     def __init__(self, name):
         self.name = name
@@ -56,6 +57,7 @@ class Skill(object):
             rstr += ' ' + l
         rstr += '\n'
         return rstr
+
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
@@ -95,7 +97,7 @@ if __name__ == '__main__':
                                     try:
                                         s.cost = int(value)
                                     except:
-                                        s.cose = value
+                                        s.cost = value
                                 elif key in ['dirty_tricks', 'dt']:
                                     if value in ['true', 't', '1', 'yes']:
                                         s.dirty_tricks = True
